@@ -1,5 +1,25 @@
 # KitNote_note_app
 
+[MySQL]
+- table 1 - notes
+    id
+    text
+    userID
+    isdeleted (true/false)
+    ischecked (true/false)
+    timestamp
+- table 2 - users
+    userID 
+    email
+    username
+    password
+    timestamp
+
+[PHP/MySQL]
+- UPDATE
+- INSERT
+- SELECT
+	
 [JS]
 User Authentication:
 1. Loading page: - Set 1.5 second to load the page
@@ -24,15 +44,15 @@ Todo List Functionality: 1. Change Color: - Change the color of a todo item to i
 - update_note.php: Update the subject or text of a note in the "notes" table. Also, update the timestamp to reflect the most recent modification.
 
 
-Login: If the entered email does not exist, an error message is displayed.
-Login: If the entered password does not match the one stored in the database, an error message is shown.
-Sign Up: During the registration process, the system verifies that the password contains at least 9 characters.
-Sign Up: The system ensures that the entered password and password confirmation match.
-Sign Up: It checks whether the user already exists, and if so, an error message is presented.
-Note: Any input field containing white spaces or lacking subject/text will trigger an error.
-Note: If the character count of a note exceeds 600, the send button is deactivated.
-Note: Allows users to edit existing notes.
-Note: Users can check/uncheck notes as needed.
-Note: Provides the option to delete notes.
-Note: Offers data filtering options, including shuffling, displaying checked notes, and showing notes in progress.
-Log Out: Allows users to log out of the system.
+- Login: If the entered email does not exist, an error message is displayed.
+- Login: If the entered password does not match the one stored in the database, an error message is shown.
+- Sign Up: During the registration process, the system verifies that the password contains at least 9 characters.
+- Sign Up: The system ensures that the entered password and password confirmation match.
+- Sign Up: It checks whether the user already exists, and if so, an error message is presented.
+- Note: Any input field containing white spaces or lacking subject/text will trigger an error.
+- Note: If the character count of a note exceeds 600, the send button is deactivated.
+- Note: Allows users to edit existing notes.
+- Note: Users can check/uncheck notes as needed.
+- Note: Provides the option to delete notes.
+- Note: Offers data filtering options, including shuffling, displaying checked notes, and showing notes in progress.
+- Log Out: Allows users to log out of the system.
