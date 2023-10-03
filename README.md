@@ -56,3 +56,4 @@ Todo List Functionality: 1. Change Color: - Change the color of a todo item to i
 - Note: Provides the option to delete notes.
 - Note: Offers data filtering options, including shuffling, displaying checked notes, and showing notes in progress.
 - Log Out: Allows users to log out of the system.
+- Session keeps running even when you refresh the page
