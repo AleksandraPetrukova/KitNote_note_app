@@ -9,7 +9,7 @@
     - ischecked (true/false)
     - timestamp
 - **table 2 - users**
-    - userID - primary key
+    - userID (primary key)
     - email
     - username
     - password
