@@ -35,14 +35,14 @@
 6. Update Button: - Allow users to update a todo item's details. - Display the previous information in input fields. - Update the item and the timestamp.
 
 ## [PHP]
-**- delete.php:** Update the "isDelete" field in the database to indicate deletion by setting it to true (1) from false (0). The deletion query is excluded based on a recommendation from a teacher.
-**- insert.php:** Perform an insertion operation to add a new note to the database. Ensure that the note fields are not empty or contain only spaces before performing the insertion.
-**- log_in.php:** Verify the existence of the user in the system. If the user exists, compare the hashed password with the stored password in the database. If both checks pass successfully, store the user's information in a session.
-**- log_out.php:** Log out the user by terminating and destroying their active session.
-**- select.php:** Retrieve notes from the "notes" table that are associated with the same userID as the current session.
-**- sign_up.php:** Check whether there is an existing user with the same email in the database. If no such user exists, insert a new user record into the "users" table. Automatically log in the newly registered user by storing their information in the session.
-**- update_checked.php:** Update the "isChecked" field in the database to toggle between true (1) and false (0).
-**- update_note.php:** Update the subject or text of a note in the "notes" table. Also, update the timestamp to reflect the most recent modification.
+- **delete.php:** Update the "isDelete" field in the database to indicate deletion by setting it to true (1) from false (0). The deletion query is excluded based on a recommendation from a teacher.
+- **insert.php:** Perform an insertion operation to add a new note to the database. Ensure that the note fields are not empty or contain only spaces before performing the insertion.
+- **log_in.php:** Verify the existence of the user in the system. If the user exists, compare the hashed password with the stored password in the database. If both checks pass successfully, store the user's information in a session.
+- **log_out.php:** Log out the user by terminating and destroying their active session.
+- **select.php:** Retrieve notes from the "notes" table that are associated with the same userID as the current session.
+- **sign_up.php:** Check whether there is an existing user with the same email in the database. If no such user exists, insert a new user record into the "users" table. Automatically log in the newly registered user by storing their information in the session.
+- **update_checked.php:** Update the "isChecked" field in the database to toggle between true (1) and false (0).
+- **update_note.php:** Update the subject or text of a note in the "notes" table. Also, update the timestamp to reflect the most recent modification.
 
 ## [Features]
 - Login: If the entered email does not exist, an error message is displayed.
