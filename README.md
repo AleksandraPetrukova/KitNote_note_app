@@ -1,14 +1,14 @@
 # KitNote_note_app
 
 ## [MySQL]
-**- table 1 - notes**
+- **table 1 - notes**
     - id (primary key)
     - text
     - userID
     - isdeleted (true/false)
     - ischecked (true/false)
     - timestamp
-**- table 2 - users**
+- **table 2 - users**
     - userID - primary key
     - email
     - username
