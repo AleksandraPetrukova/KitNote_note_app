@@ -43,7 +43,7 @@ Todo List Functionality: 1. Change Color: - Change the color of a todo item to i
 - update_checked.php: Update the "isChecked" field in the database to toggle between true (1) and false (0).
 - update_note.php: Update the subject or text of a note in the "notes" table. Also, update the timestamp to reflect the most recent modification.
 
-
+[Features]
 - Login: If the entered email does not exist, an error message is displayed.
 - Login: If the entered password does not match the one stored in the database, an error message is shown.
 - Sign Up: During the registration process, the system verifies that the password contains at least 9 characters.
