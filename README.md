@@ -2,18 +2,18 @@
 
 ## [MySQL]
 **- table 1 - notes**
-    1. id - primary key
-    2. text
-    3. userID
-    4. isdeleted (true/false)
-    5. ischecked (true/false)
-    6. timestamp
+    - id (primary key)
+    - text
+    - userID
+    - isdeleted (true/false)
+    - ischecked (true/false)
+    - timestamp
 **- table 2 - users**
-    1. userID - primary key
-    2. email
-    3. username
-    4. password
-    5. timestamp
+    - userID - primary key
+    - email
+    - username
+    - password
+    - timestamp
 
 ## [PHP/MySQL]
 - UPDATE
