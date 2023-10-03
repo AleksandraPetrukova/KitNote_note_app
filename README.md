@@ -1,6 +1,6 @@
 # KitNote_note_app
 
-##[MySQL]
+## [MySQL]
 **- table 1 - notes**
     1. id - primary key
     2. text
@@ -15,12 +15,12 @@
     4. password
     5. timestamp
 
-##[PHP/MySQL]
+## [PHP/MySQL]
 - UPDATE
 - INSERT
 - SELECT
 	
-##[JS]
+## [JS]
 **User Authentication:**
 1. Loading page: - Set 1.5 second to load the page
 2. Login: - Authenticate users with their email address and password. - Display a greeting messages, an input field, and input data to the user. - Allow users to logout
@@ -34,7 +34,7 @@
 5. Filter and Display Buttons: - Implement buttons to filter and display todo items: - Show all items - Shuffle items randomly - Show checked notes - Show in-progress items
 6. Update Button: - Allow users to update a todo item's details. - Display the previous information in input fields. - Update the item and the timestamp.
 
-##[PHP]
+## [PHP]
 **- delete.php:** Update the "isDelete" field in the database to indicate deletion by setting it to true (1) from false (0). The deletion query is excluded based on a recommendation from a teacher.
 **- insert.php:** Perform an insertion operation to add a new note to the database. Ensure that the note fields are not empty or contain only spaces before performing the insertion.
 **- log_in.php:** Verify the existence of the user in the system. If the user exists, compare the hashed password with the stored password in the database. If both checks pass successfully, store the user's information in a session.
@@ -44,7 +44,7 @@
 **- update_checked.php:** Update the "isChecked" field in the database to toggle between true (1) and false (0).
 **- update_note.php:** Update the subject or text of a note in the "notes" table. Also, update the timestamp to reflect the most recent modification.
 
-##[Features]
+## [Features]
 - Login: If the entered email does not exist, an error message is displayed.
 - Login: If the entered password does not match the one stored in the database, an error message is shown.
 - Sign Up: During the registration process, the system verifies that the password contains at least 9 characters.
